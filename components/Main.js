@@ -4,7 +4,7 @@ const Main = () => {
     return (
         <div>
             <section className="text-gray-800 body-font ">
-                <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+                <div className="container mx-auto flex px-5 py-16 md:py-36 items-center justify-center flex-col">
                     <div className="text-center lg:w-2/3 w-full">
                         <h1 className="title-font font-semibold sm:text-4xl text-3xl mb-4  text-gray-900">OUR AIM</h1>
                         <p className="mb-8 mt-8 leading-relaxed">At Developer Student Club, ADGITM we believe imagination has no limits and we can make almost anything possible through technology. We want to create leaders by empowering them to think out of the box.</p>
