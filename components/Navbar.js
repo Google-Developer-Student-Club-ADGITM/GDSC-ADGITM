@@ -110,8 +110,8 @@ const Navbar = () => {
               </Link>
               <nav className=" md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <Link href='/' className="mr-14 py-2  font-semibold text-sm text-black hover:text-blue-600">HOME</Link>
-                <Link href='/' className="mr-14 py-2  font-semibold text-sm text-black hover:text-red-600">BLOG</Link>
-                <Link href='/' className="mr-14 py-2  font-semibold text-sm text-black hover:text-yellow-500">PROJECT</Link>
+                <Link href='#blog' className="mr-14 py-2  font-semibold text-sm text-black hover:text-red-600">BLOG</Link>
+                <Link href='#project' className="mr-14 py-2  font-semibold text-sm text-black hover:text-yellow-500">PROJECT</Link>
                 <Link href='/' className="mr-14 py-2 font-semibold text-sm text-black hover:text-green-600">TEAMS</Link>
                 <Link href='/' className="mr-12 py-2  font-semibold text-sm text-black hover:text-gray-400">CODE OF CONDUCT</Link>
               </nav>
