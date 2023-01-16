@@ -97,7 +97,6 @@ const Navbar = () => {
                   </li>
                   <button href='' className="text-white w-40 inline-flex bg-blue-500 border-0 mt-2 px-12 
     focus:outline-none hover:bg-blue-600 rounded-full text-base md:mt-0">JOIN US
-
                   </button>
                 </ul>
               </div>
@@ -110,14 +109,13 @@ const Navbar = () => {
               </Link>
               <nav className=" md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <Link href='/' className="mr-14 py-2  font-semibold text-sm text-black hover:text-blue-600">HOME</Link>
-                <Link href='#blog' className="mr-14 py-2  font-semibold text-sm text-black hover:text-red-600">BLOG</Link>
-                <Link href='#project' className="mr-14 py-2  font-semibold text-sm text-black hover:text-yellow-500">PROJECT</Link>
+                <Link href='/#blog' className="mr-14 py-2  font-semibold text-sm text-black hover:text-red-600">BLOG</Link>
+                <Link href='/#project' className="mr-14 py-2  font-semibold text-sm text-black hover:text-yellow-500">PROJECT</Link>
                 <Link href='/' className="mr-14 py-2 font-semibold text-sm text-black hover:text-green-600">TEAMS</Link>
                 <Link href='/' className="mr-12 py-2  font-semibold text-sm text-black hover:text-gray-400">CODE OF CONDUCT</Link>
               </nav>
               <button href='/' className="text-white w-40 inline-flex bg-blue-500 border-0 py-1 px-12 
     focus:outline-none hover:bg-blue-600 rounded-full text-base md:mt-0">JOIN US
-
               </button>
             </ul>
 

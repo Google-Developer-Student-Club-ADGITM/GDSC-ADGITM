@@ -81,19 +81,19 @@ const Main = () => {
         <div>
             {/* <img className='' src='GDSCbg1.png'/> */}
             {/* Developer Student Clubs ADGITM */}
-            <section class=" body-font">
-                <div class="container mx-auto flex px-5 py-16 md:py-36 items-center justify-center flex-col">
-                    <div class="flex flex-wrap -m-4 justify-center ">
-                        <div class="p-4 md:w-1/2 md:mr-96">
-                            <div class="p-6">
-                                <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">Developer Student Clubs
+            <section className=" body-font">
+                <div className="container mx-auto flex px-5 py-16 md:py-36 items-center justify-center flex-col">
+                    <div className="flex flex-wrap -m-4 justify-center ">
+                        <div className="p-4 md:w-1/2 md:mr-96">
+                            <div className="p-6">
+                                <h1 className="title-font text-2xl font-bold text-gray-900 mb-3">Developer Student Clubs
                                     <br />
                                     ADGITM
                                 </h1>
                                 <h2 className="tracking-widest text-xs flex title-font font-medium text-gray-600 mb-1">Powered By <img className='w-12 justify-center items-center' src='google1.png' /> </h2>
-                                <p class="leading-relaxed mb-3 text-gray-800">The Google Developer student clubs ADGITM is a community creating a peer to peer environment by bringing developers under one roof so that we connect, learn and grow by implementing projects that solve real-world problems!We think slightly out of the box, we believe that a club’s resources must not only be channeled into conducting events but also to propagate learning and teaching, symbiotically.</p>
-                                <div class="flex items-center flex-wrap ">
-                                    <button class="text-white bg-blue-500 hover:bg-blue-600 py-2 px-6 focus:outline-none rounded-2xl text-lg ">Collaborate on Projects</button>
+                                <p className="leading-relaxed mb-3 text-gray-800">The Google Developer student clubs ADGITM is a community creating a peer to peer environment by bringing developers under one roof so that we connect, learn and grow by implementing projects that solve real-world problems!We think slightly out of the box, we believe that a club’s resources must not only be channeled into conducting events but also to propagate learning and teaching, symbiotically.</p>
+                                <div className="flex items-center flex-wrap ">
+                                    <button className="text-white bg-blue-500 hover:bg-blue-600 py-2 px-6 focus:outline-none rounded-2xl text-lg ">Collaborate on Projects</button>
                                 </div>
                             </div>
                         </div>
@@ -161,74 +161,74 @@ const Main = () => {
 
 
             {/* Field Work  */}
-            <section class="text-gray-600 bg-gray-200 body-font">
-                <div class="container px-5 py-24 mx-auto">
-                    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-                        <h1 class="sm:text-3xl text-2xl font-semibold title-font mb-2 text-gray-900">FIELDS WE WORK IN</h1>
+            <section className="text-gray-600 bg-gray-200 body-font">
+                <div className="container px-5 py-24 mx-auto">
+                    <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+                        <h1 className="sm:text-3xl text-2xl font-semibold title-font mb-2 text-gray-900">FIELDS WE WORK IN</h1>
 
                     </div>
 
 
-                    <div class="flex flex-wrap" style={fields}>
+                    <div className="flex flex-wrap" style={fields}>
 
-                        <div class="xl:w-1/4 md:w-1/2 ">
-                            <div class="border bg-blue-400 border-gray-200 rounded-3xl" style={fieldstypes} >
+                        <div className="xl:w-1/4 md:w-1/2 ">
+                            <div className="border bg-blue-400 border-gray-200 rounded-3xl" style={fieldstypes} >
 
-                                <h6 class="text-lg text-gray-900 text-center font-bold title-font m-3">AI/ML & DATA SCIENCE</h6>
-                                <p class="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white">Learn how to drive user engagement and retention with intelligent apps that are able to effectively serve users what they need without the fuss by providing these systems with the ability to automatically learn and improve from experience without being explicitly programmed.</p>
+                                <h6 className="text-lg text-gray-900 text-center font-bold title-font m-3">AI/ML & DATA SCIENCE</h6>
+                                <p className="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white p-1">Learn how to drive user engagement and retention with intelligent apps that are able to effectively serve users what they need without the fuss by providing these systems with the ability to automatically learn and improve from experience without being explicitly programmed.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/4    md:w-1/2 ">
-                            <div class="border bg-red-400 border-gray-200 rounded-3xl" style={fieldstypes}>
+                        <div className="xl:w-1/4    md:w-1/2 ">
+                            <div className="border bg-red-400 border-gray-200 rounded-3xl" style={fieldstypes}>
 
-                                <h6 class="text-lg text-gray-900 text-center font-bold title-font m-3">WEB DEVELOPMENT</h6>
-                                <p class="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white">Learn the core foundations of a delightful web experience both for the user and developer. Stay up to tabs with emerging and trending technologies. Get access to a guided, tutorial and hands-on coding experience.</p>
+                                <h6 className="text-lg text-gray-900 text-center font-bold title-font m-3">WEB DEVELOPMENT</h6>
+                                <p className="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white p-1">Learn the core foundations of a delightful web experience both for the user and developer. Stay up to tabs with emerging and trending technologies. Get access to a guided, tutorial and hands-on coding experience.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/4    md:w-1/2 ">
-                            <div class="border bg-yellow-400 border-gray-200 rounded-3xl" style={fieldstypes}>
+                        <div className="xl:w-1/4    md:w-1/2 ">
+                            <div className="border bg-yellow-400 border-gray-200 rounded-3xl" style={fieldstypes}>
 
-                                <h6 class="text-lg text-gray-900 text-center font-bold title-font m-3">ANDROID DEVELOPMENT</h6>
-                                <p class="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white">Every year Google developers release exciting new updates to the world's most popular operating system. We always have sessions to keep you updated and mastering the latest trends in modern Android development.</p>
+                                <h6 className="text-lg text-gray-900 text-center font-bold title-font m-3">ANDROID DEVELOPMENT</h6>
+                                <p className="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white p-1">Every year Google developers release exciting new updates to the world's most popular operating system. We always have sessions to keep you updated and mastering the latest trends in modern Android development.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/4    md:w-1/2 ">
-                            <div class="border bg-green-400 border-gray-200 rounded-3xl" style={fieldstypes}>
+                        <div className="xl:w-1/4    md:w-1/2 ">
+                            <div className="border bg-green-400 border-gray-200 rounded-3xl" style={fieldstypes}>
 
-                                <h6 class="text-lg text-gray-900 text-center font-bold title-font m-3">CLOUD COMPUTING</h6>
-                                <p class="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white">For passionate developers who want to stay relevant in a cloud first world where businesses demand for agility and innovation and prompt rise of cloud-native applications to bridges gaps between data, insight, and action.</p>
+                                <h6 className="text-lg text-gray-900 text-center font-bold title-font m-3">CLOUD COMPUTING</h6>
+                                <p className="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white p-1">For passionate developers who want to stay relevant in a cloud first world where businesses demand for agility and innovation and prompt rise of cloud-native applications to bridges gaps between data, insight, and action.</p>
                             </div>
                         </div>
 
 
 
-                        <div class="xl:w-1/4    md:w-1/2 ">
-                            <div class="border bg-blue-400 border-gray-200 rounded-3xl" style={fieldstypes}>
+                        <div className="xl:w-1/4    md:w-1/2 ">
+                            <div className="border bg-blue-400 border-gray-200 rounded-3xl" style={fieldstypes}>
 
-                                <h6 class="text-lg text-gray-900 text-center font-bold title-font m-3">INFO SECURITY</h6>
-                                <p class="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white">With exponential rise in digital world, the attacks are rising more and more. Learn how to keep your applications safe in this world of information technology.
+                                <h6 className="text-lg text-gray-900 text-center font-bold title-font m-3">INFO SECURITY</h6>
+                                <p className="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white p-1">With exponential rise in digital world, the attacks are rising more and more. Learn how to keep your applications safe in this world of information technology.
                                     Codelabs</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/4    md:w-1/2 ">
-                            <div class="border bg-red-400 border-gray-200 rounded-3xl" style={fieldstypes}>
+                        <div className="xl:w-1/4    md:w-1/2 ">
+                            <div className="border bg-red-400 border-gray-200 rounded-3xl" style={fieldstypes}>
 
-                                <h6 class="text-lg text-gray-900 text-center font-bold title-font m-3">UI/UX DESIGNING</h6>
-                                <p class="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white">It is the art of creating visual content for communication purposes. In this domain, We provide designing team who with their apex of creativity immerse themselves into fantasy and fiction and pour out the elegance.</p>
+                                <h6 className="text-lg text-gray-900 text-center font-bold title-font m-3">UI/UX DESIGNING</h6>
+                                <p className="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white p-1">It is the art of creating visual content for communication purposes. In this domain, We provide designing team who with their apex of creativity immerse themselves into fantasy and fiction and pour out the elegance.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/4    md:w-1/2 ">
-                            <div class="border bg-yellow-400 border-gray-200 rounded-3xl" style={fieldstypes}>
+                        <div className="xl:w-1/4    md:w-1/2 ">
+                            <div className="border bg-yellow-400 border-gray-200 rounded-3xl" style={fieldstypes}>
 
-                                <h6 class="text-lg text-gray-900 text-center font-bold title-font m-3">CONTENT</h6>
-                                <p class="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white">For an organization, content can be anything from an engineering white paper to a press release to even a post made by the company on social media. It is vital for an organization to understand the importance of content and take actions for ownership.</p>
+                                <h6 className="text-lg text-gray-900 text-center font-bold title-font m-3">CONTENT</h6>
+                                <p className="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white p-1">For an organization, content can be anything from an engineering white paper to a press release to even a post made by the company on social media. It is vital for an organization to understand the importance of content and take actions for ownership.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/4    md:w-1/2 ">
-                            <div class="border bg-green-400 border-gray-200 rounded-3xl" style={fieldstypes}>
+                        <div className="xl:w-1/4    md:w-1/2 ">
+                            <div className="border bg-green-400 border-gray-200 rounded-3xl" style={fieldstypes}>
 
-                                <h6 class="text-lg text-gray-900 text-center font-bold title-font m-3">MANAGEMENT</h6>
-                                <p class="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white">For the growth of all and to bring chances for all the domains to excel and also develop teamwork skills, we provide managerial domain to increase the productivity of all our members by being the face of this society and bring forth new projects.</p>
+                                <h6 className="text-lg text-gray-900 text-center font-bold title-font m-3">MANAGEMENT</h6>
+                                <p className="leading-relaxed h-64 text-base text-center rounded-b-3xl bg-white p-1">For the growth of all and to bring chances for all the domains to excel and also develop teamwork skills, we provide managerial domain to increase the productivity of all our members by being the face of this society and bring forth new projects.</p>
                             </div>
                         </div>
 
@@ -238,14 +238,14 @@ const Main = () => {
             </section>
 
 
-            
+
 
             {/* Team Leads  */}
             <section id='project' className="text-gray-800 body-font ">
                 <div className="container mx-auto flex  py-16 md:py-36 items-center justify-center flex-col">
                     <div className="text-center w-full">
                         <h1 className="title-font font-semibold sm:text-4xl text-3xl mb-16  text-gray-900">TEAM LEADS</h1>
-                        <div style={scrollmenu} class="scrollmenu whitespace-nowrap mb-16">
+                        <div style={scrollmenu} className="scrollmenu whitespace-nowrap mb-16">
                             <a style={scrollmenuA} href="#naman12">President</a>
                             <a style={scrollmenuA}>General Seretary</a>
                             <a style={scrollmenuA} href="#contact">Web</a>
