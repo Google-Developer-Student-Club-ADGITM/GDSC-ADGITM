@@ -9,6 +9,10 @@ export default function Home() {
   return (
     <>
       <div>
+        <Head>
+          <title>GDSC ADGITM</title>
+          <link rel='website icon' type='webp' href='gdscicon.webp'/>
+        </Head>
 
         <Navbar />
         <Main/>
