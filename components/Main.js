@@ -114,7 +114,7 @@ const Main = () => {
 
                     <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="aim.png" />
 
-                    <button href='' className="text-white w-40 inline-flex bg-blue-500 border-0 py-1 px-12 focus:outline-none hover:bg-blue-600 rounded-full text-base md:mt-0">JOIN US</button>
+                    <a href='https://gdsc.community.dev/dr-akhilesh-das-gupta-institute-of-technology-and-management-delhi/' target="_blank"><button className="text-white w-40 inline-flex bg-blue-500 border-0 py-1 px-12 focus:outline-none hover:bg-blue-600 rounded-full text-base md:mt-0">JOIN US</button></a>
                 </div>
             </section>
 

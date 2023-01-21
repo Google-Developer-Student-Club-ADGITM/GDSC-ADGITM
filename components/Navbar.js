@@ -95,8 +95,8 @@ const Navbar = () => {
                   <li className="py-2 font-semibold text-sm text-black hover:text-gray-400">
                     <Link href="/Contact">CODE OF CONDUCT</Link>
                   </li>
-                  <button href='' className="text-white w-40 inline-flex bg-blue-500 border-0 mt-2 px-12 
-    focus:outline-none hover:bg-blue-600 rounded-full text-base md:mt-0">JOIN US
+                  <button href='https://gdsc.community.dev/dr-akhilesh-das-gupta-institute-of-technology-and-management-delhi/' className="text-white w-40 inline-flex bg-blue-500 border-0 mt-2 px-12 
+    focus:outline-none hover:bg-blue-600 rounded-full text-base md:mt-0">JOIN US 
                   </button>
                 </ul>
               </div>
@@ -114,9 +114,9 @@ const Navbar = () => {
                 <Link href='/' className="mr-14 py-2 font-semibold text-sm text-black hover:text-green-600">TEAMS</Link>
                 <Link href='/' className="mr-12 py-2  font-semibold text-sm text-black hover:text-gray-400">CODE OF CONDUCT</Link>
               </nav>
-              <button href='/' className="text-white w-40 inline-flex bg-blue-500 border-0 py-1 px-12 
+              <a href='https://gdsc.community.dev/dr-akhilesh-das-gupta-institute-of-technology-and-management-delhi/' target="_blank"><button className="text-white w-40 inline-flex bg-blue-500 border-0 py-1 px-12 
     focus:outline-none hover:bg-blue-600 rounded-full text-base md:mt-0">JOIN US
-              </button>
+              </button></a>
             </ul>
 
             <style>{`
